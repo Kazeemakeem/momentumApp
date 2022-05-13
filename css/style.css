@@ -1,0 +1,18 @@
+.hidden{
+    display: none;
+}
+
+#todo-list ul >* {
+    display: inline;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#todo-edit{
+    float: right;
+    clear: both;
+}
+
+#todo-edit ul >* {
+    display: block;
+}
